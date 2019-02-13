@@ -5,8 +5,8 @@
 ### Author: Erin Trainor
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
+* [repo](https://github.com/etrainor/401-javascript-lab02)
+* [travis](https://www.travis-ci.com/etrainor/401-javascript-lab02)
 * [back-end](http://xyz.com)
 * [front-end](http://xyz.com)
 
