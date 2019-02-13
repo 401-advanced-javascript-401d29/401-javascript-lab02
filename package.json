@@ -1,0 +1,23 @@
+{
+  "name": "401-javascript-lab02",
+  "version": "1.0.0",
+  "description": "Classes, Inheritance, Functional Programming",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^24.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etrainor/401-javascript-lab02.git"
+  },
+  "author": "Erin Trainor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etrainor/401-javascript-lab02/issues"
+  },
+  "homepage": "https://github.com/etrainor/401-javascript-lab02#readme"
+}
