@@ -17,13 +17,13 @@ class flyingVehicle {
 
 class Airplane extends flyingVehicle{
     constructor(name) {
-        super(name, wings);
+        super(name, 'wings');
     }
 }
 
 class Helicopter extends flyingVehicle {
     constructor(name) {
-        super(name, rotors);
+        super(name, 'rotors');
     }
 
     hover() {
