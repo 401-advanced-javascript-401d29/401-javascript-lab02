@@ -7,7 +7,7 @@ class SeaCreature {
     }
 
     cooking() {
-        return 'NOOOOO I want to live!!!! ';
+        return 'NOOOOO I want to live!!!!';
     }
 
     eating() {
