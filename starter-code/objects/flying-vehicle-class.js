@@ -1,6 +1,6 @@
 'use strict';
 
-class flyingVehicle {
+class FlyingVehicle {
     constructor(name, flight) {
         this.name = name;
         this.flight = flight;
@@ -15,15 +15,15 @@ class flyingVehicle {
     }
 }
 
-class Airplane extends flyingVehicle{
+class Airplane extends FlyingVehicle{
     constructor(name) {
-        super(name, wings);
+        super(name, 'wings');
     }
 }
 
-class Helicopter extends flyingVehicle {
+class Helicopter extends FlyingVehicle {
     constructor(name) {
-        super(name, rotors);
+        super(name, 'rotors');
     }
 
     hover() {
