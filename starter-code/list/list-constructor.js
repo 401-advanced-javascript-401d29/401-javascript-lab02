@@ -3,7 +3,6 @@
 function List() {
   this.length = 0;
   this.data = {};
-  // this.data = [1,2,3,4,5,6,7,8,9,10];
 }
 /**
  * Add item to the end of the list
@@ -25,21 +24,27 @@ List.prototype.pop = function() {
   return returnValue;
 };
 
+// Shift - removed from beginning of an array and change the indices of remaining objects
 // Maybe found help here https://stackoverflow.com/questions/30135113/shifting-a-javascript-array-one-spot-to-the-left-without-using-the-shift-met
 List.prototype.shift = function() {
-  let returnValue = this.data[this.length-1];
-    return returnValue;
-    for(let a = 1 ; a < this.length ; a++){
-          this.data[a-1] = this.data[a];
+  let returnValue = this.data[0];
+    for(let a = 0 ; a < this.length ; a++){
+          this.data[a] = this.data[a+1];
       }
-    this.data[this.length-1] = 0;
-    console.log(returnValue);
+    this.length --;
+    return returnValue;
 };
 
-// unshift() {
-//
-// }
-//
+// Unshift - adds a value to the beginning of an array and change the indices of the remaining objects
+// Information found here - https://stackoverflow.com/questions/33459020/function-to-add-item-to-beginning-of-an-array-without-unshift-method
+List.prototype.unshift = function(item) {{
+        for (let i = this.length - 1; i >=0; i--) {
+            this.data[i +1] = this.data[i];
+        }
+        this.data[0] = item;
+    };
+}
+
 // forEach() {
 //
 // }
