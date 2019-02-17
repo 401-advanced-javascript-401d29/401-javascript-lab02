@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "Classes, Inheritance, Functional Programming",
   "main": "index.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "jest": "^24.1.0"
   },
-  "devDependencies": {},
   "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
     "test": "jest --coverage"
   },
   "repository": {

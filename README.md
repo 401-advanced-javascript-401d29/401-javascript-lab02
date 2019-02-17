@@ -2,64 +2,49 @@
 =================================================
 ## Classes, Inheritance, and Functional Programming
 
-### Author: Erin Trainor
+## Node Ecosystem
+[![Build Status](https://www.travis-ci.com/etrainor/401-javascript-lab02.svg?branch=master)](https://www.travis-ci.com/etrainor/401-javascript-lab02)
+
+### Authors: Erin Trainor and Anthony Triplett
 
 ### Links and Resources
 * [repo](https://github.com/etrainor/401-javascript-lab02)
 * [travis](https://www.travis-ci.com/etrainor/401-javascript-lab02)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
 
 ### Modules
-#### `modulename.js`
+#### `vehicle-constructor.js`
+#### `vehicle-class.js`
+#### `flying-vehicle-class.js`
+#### `seaCreature-class.js`
+#### `vehicle-factory.js`
+#### `seaCreature-factory.js`
+#### `flying-vehicle-factory.js`
+
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### module.exports = {Fish, Lobster};
+Exports Fish and Lobster child classes to index.js
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### module.exports = {Airplane, Helicopter};
+Exports Airplane and Helicopter child classes to index.js
+
+###### module.exports = {Car, Motorcycle};
+Exports Car and Motorcycle child classes to index.js
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* jest
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* `npm run index.js from within desired list or objects directory
 
 #### Tests
-* How do you run tests?
+* npm run test
 * What assertions were made?
 * What assertions need to be / should be made?
 
 #### UML
-Link to an image of the UML for your application and response to events
-0 comments on commit 00c9af2
-@etrainor
+[UML Image](https://drive.google.com/file/d/1-Sc_s2u2PM6s1abqWhpBWiWI4i5-9V11/view?usp=sharing)
+
    
  
- 
- 
-Leave a comment
-Attach files by dragging & dropping, selecting them, or pasting from the clipboard.
-
- Styling with Markdown is supported
-  You’re not receiving notifications from this thread.
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
